@@ -1,3 +1,15 @@
+
+
+h1 {
+  display: grid;
+  justify-content: center;
+}
+
+p {
+  justify-content: center;
+  display: grid;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -56,4 +68,22 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.andTime {
+  font-size: 30px
+}
+
+.lead {
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.clear {
+  background-color: #06aed5;
+  color:#000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
 }
